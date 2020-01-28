@@ -15,8 +15,8 @@ public class StuResult1 {
         int marks[] = new int[3];
         int i;
         float total = 0, avg = 0;
-        Scanner sc3 = new Scanner(System.in);
 
+        Scanner sc3 = new Scanner(System.in);
         for (i = 0; i < 3; i++) {
             System.out.println("Enter Marks of Subject " + (i + 1) + ":");
             marks[i] = sc3.nextInt();

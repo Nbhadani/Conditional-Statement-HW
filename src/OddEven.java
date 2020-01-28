@@ -7,12 +7,11 @@ public class OddEven {
 
         Scanner reader = new Scanner(System.in); // Creates an instance of the Scanner and reads the input
 
-        System.out.print("Input your first number: ");
-        int num = reader.nextInt(); // Reads in a string of digits
+        System.out.print("Number Naakho: ");
+        int n = reader.nextInt(); // Reads the input number and stores it in variable num
+        String OE = ( n % 2 == 0) ? "Beki Number" : "Ekki Number"; // Replaced if else with Turnery operator ( ? : )
 
-        String OddEven = ( num % 2 == 0) ? "Even Number" : "Odd Number"; // Replaced if else with Turnery operator ( ? : )
-
-        System.out.println( num + " is a " + OddEven);
+        System.out.println( n + " is a " + OE);
 
     }
 

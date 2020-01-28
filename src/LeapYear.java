@@ -7,8 +7,8 @@ public class LeapYear {
     public static void main(String[] args) {
 
         int year; // Take a Integer Variable year
-        Scanner s = new Scanner(System.in);
 
+        Scanner s = new Scanner(System.in);
         System.out.print( " Enter the Year : ");
         year = s.nextInt(); // Assign a value tp the variable year
 
